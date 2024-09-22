@@ -159,6 +159,7 @@ section.about p{
     color:var(--ternary);
     line-height: 1,8;
     margin-bottom: 2rem;
+    text-align: justify;
 }
 
 section.about .social{
