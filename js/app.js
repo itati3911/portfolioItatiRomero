@@ -4,6 +4,14 @@ $(document).ready(function(){
     let hamburguer = document.querySelector('.hamburguer');
     let times = document.querySelector('.times');
     let mobileNav = document.querySelector('.mobile-nav');
+    let cierre = document.querySelector('.cierre');
+    let cierres = document.querySelector('.cierres');
+    let cierrese = document.querySelector('.cierrese');
+    let cierreses = document.querySelector('.cierreses');
+    let cierresese = document.querySelector('.cierresese');
+
+    
+
     
     
     hamburguer.addEventListener('click', function(){
@@ -13,6 +21,31 @@ $(document).ready(function(){
     });
     
     times.addEventListener('click', function(){
+        mobileNav.classList.remove('open');
+    
+    });
+
+    cierre.addEventListener('click', function(){
+        mobileNav.classList.remove('open');
+    
+    });
+
+    cierres.addEventListener('click', function(){
+        mobileNav.classList.remove('open');
+    
+    });
+
+    cierrese.addEventListener('click', function(){
+        mobileNav.classList.remove('open');
+    
+    });
+
+    cierreses.addEventListener('click', function(){
+        mobileNav.classList.remove('open');
+    
+    });
+
+    cierresese.addEventListener('click', function(){
         mobileNav.classList.remove('open');
     
     });
@@ -58,13 +91,34 @@ function mostrarGmail() {
     // Mostrar el mensaje
     document.getElementById("mensajeGmail").style.display = "block";
     
-    
+    // Ocultar el mensaje después de 3 segundos
     setTimeout(function() {
         document.getElementById("mensajeGmail").style.display = "none";
     }, 3000);
 }
-// evento onclick
-document.querySelector("#gmailLink").addEventListener("click", mostrarGmail);
+
+// Añadir evento onclick al enlace
+document.querySelector("#gmailLink").addEventListener("click", function(event) {
+    event.preventDefault(); // Evitar el comportamiento por defecto del enlace
+    mostrarGmail();
+});
+
+//****************************************************************************** */
+function mostrarGmail2() {
+    // Mostrar el mensaje
+    document.getElementById("mensajeGmail2").style.display = "block";
+    
+    // Ocultar el mensaje después de 3 segundos
+    setTimeout(function() {
+        document.getElementById("mensajeGmail2").style.display = "none";
+    }, 3000);
+}
+
+// Añadir evento onclick al enlace
+document.querySelector("#gmailLink2").addEventListener("click", function(event) {
+    event.preventDefault(); // Evitar el comportamiento por defecto del enlace
+    mostrarGmail2();
+});
 
 
 
