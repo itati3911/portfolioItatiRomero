@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itati Romero - Mi portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+
+        <button class="hamburguer">
+            <img src="./images/hamberger.png" alt="">
+        </button>
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.png" alt=""></button>
+            <ul>
+                
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#form">Contacto</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                           
+                        </div>
+                        <div>
+                            
+                            <a href="#about">Sobre mí</a>
+                            <a href="#conocimientos">Conocimientos y habilidades</a>
+                            <a href="#formacion">Formación</a>
+                            <a href="#proyectos">Proyectos</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="#form"><button class="btn btn-primary">Contacto</button></a>
+                    </div>
+                </nav>
+                <div id="home" class="hero flex items-center justify between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/itaherobw.png" alt="">
+                    </div>
+                    <div id="intro" class="right flex-1">
+                        <h6>Itati Romero</h6>
+                        <h1>Lista para crear <span>soluciones tecnológicas</span></h1>
+                        <p>Estudiante de la Tecnicatura Universitaria en Programación<br>Universidad Tecnológica Nacional (UTN)<br>Facultad Regional General Pacheco</p>
+                       <!--<div>
+                            <button class="btn btn-secondary">DESCARGAR CV</button>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div id="div-de-ita-about"class="flex-1">
+                    <img class="about-me-img" src="./images/ita3bw.png" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>Sobre <span>mí</span></h1>
+                    <h3>Hola! </h3>
+                    <p>Soy una persona entusiasta para trabajar, aportando no solo un gran compromiso, sino
+                        también un deseo constante de superación personal y profesional. Mi capacidad para aprender
+                        rápidamente me permite adaptarme con facilidad a nuevos desafíos y entornos. Además, cuento con
+                        una amplia experiencia en trabajo en equipo, lo que me ha permitido desarrollar y fortalecer mis
+                        habilidades interpersonales. A lo largo de mi trayectoria, he adquirido competencias sólidas en
+                        soft skills como la comunicación efectiva, la empatía, la resolución de conflictos y la
+                        inteligencia emocional, herramientas que considero fundamentales para contribuir de manera
+                        positiva en cualquier equipo o proyecto.</p>
+
+                    <div class="social">
+                        <a href="#about" id="gmailLink" onclick="mostrarGmail()"> <img src="./images/gmail-logo.png" alt=""></a>
+                        <p id="mensajeGmail" style="display:none; color:rgb(5, 14, 18);"> 💻  Mi mail es ITATI3911@GMAIL.COM  💻   </p>
+                        <a href="https://github.com/itati3911"><img src="./images/github-logo.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/bon-vivant/"><img src="./images/linkedin-logo.png"
+                                alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="conocimientos" class="services">
+            <div class="container">
+                <h1 id="conocimiento" class="section-heading"> Conocimientos </h1>
+                <p>Estos son los conocimientos que tengo y sigo aprendiendo través de mis estudios en la UTN, cursos y
+                    de manera autodidacta.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/html.png" alt="">
+                        <h2>HTML</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                    <div class="card">
+                        <img src="./images/css.png" alt="">
+                        <h2>CSS</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./images/js.png" alt="">
+                        <h2>Javascript</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                    <div class="card">
+                        <img src="./images/react.png" alt="">
+                        <h2>React</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                                   
+                    <div class="card">
+                        <img src="./images/cplus.png" alt="">
+                        <h2>C++</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                    <div class="card">
+                        <img src="./images/csharp.png" alt="">
+                        <h2>C#</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                    <div class="card">
+                        <img src="./images/sql.png" alt="">
+                        <h2>SQL</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                    <div class="card">
+                        <img src="./images/ingles.png" alt="">
+                        <h2>Idioma Inglés</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                    <div class="card">
+                        <img src="./images/github.png" alt="">
+                        <h2>GIT/GitHub</h2>
+                        <!--<p>Parrafo sobre esta skill, no se si ponerlo</p>-->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="formacion" class="freelancer">
+            <h1>Formación</h1>
+            <a href="https://www.frgp.utn.edu.ar/carreras/tup_tuss"><p> 💻 Tecnicatura Universitaria en Programación - Actualmente cursando 2do año -  Universidad Tecnológica Nacional, Facultad Regional Gral Pacheco</p></a>
+            <a href="https://www.coderhouse.com/ar/certificados/6231f38d290b151107fe9973"><p> 💻 Web development (HTML + CSS) - Coderhouse</p></a>
+            <a href="https://www.coderhouse.com/ar/certificados/62a489acb51c2500564fe02c"><p> 💻 Javascript - Coderhouse</p></a>
+            <a href="https://www.coderhouse.com/ar/certificados/62d5688bc59091001bc785f2"><p> 💻 React JS - Coderhouse</p></a>
+            <a href="https://www.coderhouse.com/ar/certificados/62d58b330425db001992b9c9"><p> 💻 Frontend Developer React - Coderhouse</p></a>
+            <a href="https://drive.google.com/file/d/11HQ8xroZb_H6RXj1TQQVdXNb2kBbefCf/view?usp=sharing"><p> 💻 Backend Developer - Coderhouse</p></a>
+            <a href="https://www.med.unlp.edu.ar/"><p> 💻 Médica - Universidad Nacional de La Plata, Facultad de Cs Médicas - trabajando hasta la actualidad</p></a>
+
+<div id="descargar">
+    <button class="btn btn-primary" onclick="descargarCV()">Descargar CV</button>
+    <p id="mensaje" style="display:none; color:rgb(111, 199, 247);">CV descargado con éxito</p>
+</div>
+    
+        
+        </section>
+        <section id="proyectos" class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>Mis</span> Proyectos</h1>
+                <p>Estos son algunos de los proyectos que tengo realizados</p>
+                <div class="card-wrapper">
+                    
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="https://astillero-romero-entregafinal.vercel.app/">Astillero Bahía</a>
+                            <span> Proyecto del curso de Web Development<br>Es una página web realizada con HTML, CSS y SCSS</span>
+                        </div>
+                        <img src="./images/astillero.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="https://js-entrega-romero.vercel.app/index.html">Vivero online</a>
+                            <span>Web page realizada con HTML, CSS, SCSS y JS para un vivero con catálogo de productos y carrito de compras</span>
+                        </div>
+                        <img src="./images/vivero.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="https://react2-itati3911.vercel.app/">Hathi Drink Shop</a>
+                            <span>Web page realizada con ReactJS, con catálogo de productos y carrito de compras</span>
+                        </div>
+                        <img src="./images/hathi.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="https://github.com/itati3911/TP-INTEGRADOR-LABO-I-UTN---CLUTCH">Clutch</a>
+                            <span>Repositorio que aloja el código elaborado para Laboratorio I de TUP, cuyo TP final era realizar un juego de cartas llamado Clutch como aplicación de consola en el lenguaje C++</span>
+                        </div>
+                        <img src="./images/clutch.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="https://github.com/itati3911/backend-final-test">Backend</a>
+                            <span>Repositorio con el código del proyecto final del curso de Backend de Coderhouse</span>
+                        </div>
+                        <img src="./images/backend.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <a href="#">Sistema de Gestión de Almacén</a>
+                            <span>Sistema de gestión de un almacén como aplicación de consola realizado con C++ como Trabajo Práctico integrador para la materia Laboratorio de Computación II</span>
+                        </div>
+                        <img src="./images/almacen.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="form" class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contactame</h1>
+                <p>¡Estoy lista para comenzar, espero tu mensaje!</p>
+
+
+                <!--TENGO QUE ARREGLAR ESTA PARTE Y DECIDIR QUÉ CONTACTO PONGO
+                ***************************************************************
+                                           
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone-2.svg" alt="">
+                        <h1>Llamame</h1>
+                        <h6>12324556</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/msg.svg" alt="">
+                        <h1>Escribime</h1>
+                        <h6>mimail@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/map.svg" alt="">
+                        <h1>Visitame</h1>
+                        <h6>Donovan y Cno Gral Chamizo</h6>
+                    </div>
+                </div>-->
+                <form id="contactForm" action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Tu nombre *">
+                        <input type="text" placeholder="Tu mail *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Asunto...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje..."></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="enviarMensaje">Enviar mensaje</button>
+                    <p id="mensajeConfirmacion" style="display:none; color:green;">Mensaje enviado!</p>
+
+
+
+                    <!--<div class="btn-wrapper">
+                        <button class="btn btn-primary">Enviar mensaje</button>
+                    </div>-->
+            </div>
+            </form>
+        </section>
+
+        <!--footer-->
+        <footer>
+            <div class="footer-socials">
+
+                <a href="https://github.com/itati3911"><img src="./images/github-logo.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/bon-vivant/"><img src="./images/linkedin-logo.png" alt=""></a>
+                <a href="#footer" id="gmailLink" onclick="mostrarGmail()"> <img src="./images/gmail-logo.png" alt=""></a>
+                <p id="mensajeGmail" style="display:none; color:rgb(223, 241, 249);"> 💻  Mi mail es ITATI3911@GMAIL.COM  💻   </p>
+            </div>
+            <div class="copyright">Itatí Romero - Portfolio 2024</div>
+
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
